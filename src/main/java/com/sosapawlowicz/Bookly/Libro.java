@@ -7,11 +7,11 @@ package com.sosapawlowicz.Bookly;
 
 public abstract class Libro {
 
-    String titulo;
-    String genero;
-    String autor;
-    String descripcion;
-    int paginas;
+    protected String titulo;
+    protected String genero;
+    protected String autor;
+    protected String descripcion;
+    protected int paginas;
 
     public Libro(String titulo, String genero, String autor, String descripcion, int paginas) {
         this.titulo = titulo;
