@@ -1,17 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.sosapawlowicz.Bookly;
 
 import java.util.Date;
 import com.sosapawlowicz.Bookly.Cliente;
 import com.sosapawlowicz.Bookly.Libro;
 
-/**
- *
- * @author zantomfg
- */
 public class Prestamo {
     private int idPrestamo;
     private Date fechaRetiro;

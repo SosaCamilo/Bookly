@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.sosapawlowicz.Bookly;
 
-/**
- *
- * @author zantomfg
- */
+
 public class Administrador extends Persona {
     private String password;
 
