@@ -1,0 +1,28 @@
+package com.sosapawlowicz.booklyv2;
+
+
+public abstract class Libro {
+
+    protected String titulo;
+    protected String genero;
+    protected String autor;
+    protected String descripcion;
+    protected int paginas;
+
+    public Libro(String titulo, String genero, String autor, String descripcion, int paginas) {
+        this.titulo = titulo;
+        this.genero = genero;
+        this.autor = autor;
+        this.descripcion = descripcion;
+        this.paginas = paginas;
+    }
+
+    
+    
+    public abstract void mostrarDatos();
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+}
